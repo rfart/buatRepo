@@ -11,6 +11,6 @@ contract Test{
         _foo(msg.sender);
     }
     function goo(uint _x) external{
-        x = _x;
+        x = _x + 2;
     }
 }
