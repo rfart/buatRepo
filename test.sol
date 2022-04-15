@@ -7,10 +7,10 @@ contract Test{
     function _foo(address)internal pure{
         
     }
-    function zoo()external{
+    function foo()external{
         _foo(msg.sender);
     }
-    function foo(uint _x) external{
+    function doo(uint _x) external{
         x = _x + 2;
     }
 }
