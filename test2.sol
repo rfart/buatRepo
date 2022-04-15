@@ -10,4 +10,7 @@ contract Test{
     function foo()external{
         _foo(msg.sender);
     }
+    function doo() external{
+        
+    }
 }
