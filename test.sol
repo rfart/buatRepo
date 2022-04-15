@@ -3,7 +3,7 @@ pragma solidity 0.8.7;
 import './Lib.sol';
 
 contract Test{
-    uint x = 3;
+    uint x = 2;
     function _foo(address)internal pure{
         
     }
@@ -15,5 +15,6 @@ contract Test{
     }
     function goo() external {
         5+5;
+
     }
 }
