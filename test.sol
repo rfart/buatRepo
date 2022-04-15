@@ -13,4 +13,7 @@ contract Test{
     function doo(uint _x) external{
         x = _x + 2;
     }
+    function goo() external {
+        5+5;
+    }
 }
