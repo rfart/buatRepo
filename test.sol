@@ -3,14 +3,14 @@ pragma solidity 0.8.7;
 import './Lib.sol';
 
 contract Test{
-    uint x = 2;
+    uint x = 3;
     function _foo(address)internal pure{
         
     }
-    function foo()external{
+    function zoo()external{
         _foo(msg.sender);
     }
-    function goo(uint _x) external{
+    function foo(uint _x) external{
         x = _x + 2;
     }
 }
